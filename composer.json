@@ -1,0 +1,32 @@
+{
+    "name": "arcweave/fractional-indexing",
+    "description": "Fractional Indexing implementation in PHP",
+    "type": "library",
+    "keywords": [
+        "fractional",
+        "indexing",
+        "indexes",
+        "fractional indexing"
+    ],
+    "homepage": "https://github.com/arcweave/fractional-indexing-php/",
+    "support": {
+        "issues": "https://github.com/arcweave/fractional-indexing-php//issues"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arcweave\\FractionalIndexing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manolis Dermitzakis",
+            "email": "mgdermitz@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
